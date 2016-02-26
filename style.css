@@ -1,0 +1,12 @@
+#accordion {
+    display:inline-block;
+    width: 15%;
+    vertical-align: top;
+}
+
+#tabs {
+    display: inline-block;
+    width: 75%;
+    height: 80%;
+    vertical-align: top;
+}

@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>tabs demo</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.8.24/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.8.24/jquery-ui.js"></script>
+</head>
+<body>
+    
+<div id="accordion">
+    <h3><a href="#">Table of Contents</a></h3>
+    <div>
+        <p>This is the table of contents.</p>
+    </div>
+  <h3><a href="#">Parts Of Speech</a></h3>
+  <div>
+    <p>This section contains the different types of parts of speech. This section also contains how to use these parts of speech in a sentence.</p>
+  </div>
+  <h3><a href="#">Vocabulary</a></h3>
+  <div>
+    <p>This section contains several vocabulary words. This section also contains their definitions and their respective parts of speech</p>
+  </div>
+  <h3><a href="#">Tenses</a></h3>
+  <div>
+    <p>This section contains the rules of punctutation.</p>
+    <ul>
+      <li>period</li>
+      <li>comma</li>
+      <li>question mark</li>
+      <li>exclamation mark</li>
+    </ul>
+  </div>
+</div>
+ 
+<div id="tabs">
+  <ul>
+    <li><a href="#fragment-1"><span>One</span></a></li>
+    <li><a href="#fragment-2"><span>Two</span></a></li>
+    <li><a href="#fragment-3"><span>Three</span></a></li>
+    <li><a href="#fragment-4"><span>Four</span></a></li>
+  </ul>
+  <div id="fragment-1">
+             Topic,                 Page
+      <li>1.Tables,			       1 to 8</li>
+      <li>2.Tenses ,                9 to 18</li>
+      <li>3.Parts of Speech,        19 to 21</li>
+      <li>4.Q.Tag,                  22 to 26</li>
+      <li>5.Phonetics              27 to 29</li>
+      <li>6.Missing letters        30 to 32</li>
+      <li>7.add words              32 to 33</li>
+      <li>8.Antonyms               35</li>
+      <li>9.Synonyms               34</li>
+      <li>10.The participles       36,37</li>
+      <li>11.Articles              38 to 54</li>
+      <li>12.Preposition                 55 to 65</li>
+      <li>13.Corrections                 66 to 81</li>
+      <li>14.Voice                       82 to 95</li>
+      <li>15.Direct and Indirect Speech  96 to 104</li>
+      <li>16.Degrees of comparison       105 to 112</li>
+      <li>17.Too,To                      113 to 116</li>
+      <li>18.Though,but                  117 to 118</li>
+      <li>19.As,so 			             119 to 120</li>
+      <li>20.As soon as 		         121 to 123</li>
+      <li>21.Transformation of Sentences 124 to 132</li>
+      <li>22.Unless/If not               133 to 138</li>
+      <li>23.Rewrite as directed         138 to 139</li>
+      <li>24.Jumbled dialogue and a dialogue 140 to 149</li>
+      <li>25.pie chart and a tree diagram       150 to 152</li>
+      <li>26.Word stress  		             152 to 154</li>
+      <li>27.Spoken English		             155 to</li>
+      <li>28.Syllables                       Last page</li>
+    <pre><code>$( "#tabs" ).tabs(); </code></pre>
+  </div>
+  <div id="fragment-2">
+        <table>
+            <tr>
+                <td> II </td>
+                <td> Singular </td>
+                <td> Plural </td>
+          </tr>
+          <tr>
+                <td> Person </td>
+                <td> Subject </td>
+                <td> Possesive Case </td>
+                <td> Object </td>
+                <td> Subject </td>
+                <td> Possesive Case </td>
+                <td> Object </td>
+        </tr>
+        <tr>
+            <td> First </td>
+            <td> I </td>
+            <td> my, mine </td>
+            <td> me </td>
+            <td> we </td>
+            <td> our,ours </td>
+            <td> us </td>
+      </tr>
+      <tr>
+          <td> Second </td>
+          <td> you </td>
+          <td> your, yours </td>
+          <td> you </td>
+          <td> you </td>
+          <td> your,yours </td>
+          <td> you </td>
+     </tr>
+     <tr>
+          <td> third </td>
+     </tr>
+     <tr>
+         <td> masculine gender </td>
+         <td> he </td>
+         <td> his </td>
+         <td> him </td>
+         <td> they </td>
+         <td> their,theirs </td>
+         <td> them </td>
+    </tr>
+    <tr>
+        <td> feminine gender </td>
+        <td> she </td>
+        <td> her,hers </td>
+        <td> her </td>
+        <td> they </td>
+        <td> their, theirs</td>
+        <td> them </td>
+   </tr>
+   <tr>
+       <td> natural gender </td>
+       <td> it </td>
+       <td> its </td>
+       <td> it </td>
+       <td> they </td>
+       <td> their, them </td>
+       <td> them </td>
+  </tr>
+  </table>
+  </div>
+  <div id="fragment-3">
+        <table>
+            <tr>
+                <td> 24 Helping Verbs </td>
+            </tr>
+            <tr>
+                <td> Present Tense </td>
+                <td> Past Tense </td>
+            </tr>
+            <tr>
+                <td> am,is,are </td>
+                <td> was,were </td>
+            </tr>
+            <tr>
+                <td> have,has </td>
+                <td> had </td>
+            </tr>
+            <tr>
+                <td> do,does </td>
+                <td> did </td>
+            </tr>
+            <tr>
+                <td> shall </td>
+                <td> should </td>
+            </tr>
+            <tr>
+                <td> will </td>
+                <td> would </td>
+            </tr>
+            <tr>
+                <td> can </td>
+                <td>could</td>
+            </tr>
+            <tr>
+                <td> may </td>
+                <td> might </td>
+            </tr>
+            <tr>
+                <td> might </td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td> must </td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td> ought </td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td> need </td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td> date </td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td> - </td>
+                <td> used </td>
+            </tr>
+       </table>
+       <table>
+           <tr>
+               <td> Patient:Good morning doctor </td>
+           </tr>
+           <tr>
+               <td> Doctor:Good morning. What is your problem? </td>
+           </tr>
+           <tr>
+               <td> P:I cut my finger yesterday, while peeling potatoes </td>
+           </tr>
+           <tr>
+               <td> D:you should have seen me immediately </td>
+           </tr>
+           <tr>
+               <td> P:Is the cut serious doctor? </td>
+           </tr>
+           <tr>
+               <td> D:No,there is a little infection.I’ll dress the wound and prescribe some medicine... </td>
+           </tr>
+     </table>
+    
+</div>
+  <div id="fragment-4">
+      <table>
+      <tr>
+          <td> III </td>
+          <td> Present </td>
+          <td> Past </td>
+          <td> Future </td>
+      </tr>
+      <tr>
+          <td> Tense </td>
+          <td>
+              <li> I write a letter </li>
+              <li> We write a letter </li>
+              
+  </div>
+ 
+ 
+<script>
+$( "#tabs" ).tabs();
+</script>
+    
+<script>
+$( "#accordion" ).accordion();
+</script>
+ 
+</body>
+</html>
